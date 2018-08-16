@@ -11,7 +11,15 @@
     </head>
     <body>
         <div class="app">
-
+          <div class="date_button centered" onclick="pickdate()">
+            Pick a Date
+          </div>
+          <div id="pooltime_container" class="main_text hidden">
+            <span id="pooltime" class="hours">15</span>
+            <span class="text_small left">hours</span>
+            <span class="text_full">Pooltime</span>
+            <span class="text_small right"></span>
+          </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
